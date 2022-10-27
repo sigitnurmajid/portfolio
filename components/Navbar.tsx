@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react"
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
-import { FaLinkedinIn, FaGithub, FaYoutube } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub, FaYoutube, FaFrog } from 'react-icons/fa'
 
 export default function Navbar() {
   const [nav, setNav] = useState<boolean>(false)
@@ -13,12 +13,7 @@ export default function Navbar() {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100] ">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="/../public/assets/computer.png"
-          alt="/"
-          width="50"
-          height="25"
-        />
+        <FaFrog size={40} />
         <div>
           <ul className="hidden md:flex">
             <Link href='/'>
@@ -48,18 +43,13 @@ export default function Navbar() {
           : "fixed left-[-100%] top-0 w-[60%] p-10 sm:w-[50%] ease-in duration-500"
         }>
           <div className="flex w-full items-center justify-between">
-            <Image
-              src="/../public/assets/computer.png"
-              alt="/"
-              width="50"
-              height="25"
-            />
+            <FaFrog size={40} />
             <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
               <AiOutlineClose />
             </div>
           </div>
           <div className="border-b border-gray-400 my-4">
-            <p className="uppercase w-[85%] md:w-[90%] py-4">let&apos;s build something together</p>
+            <p className="uppercase w-[85%] md:w-[90%] py-4">let&apos;s make our money</p>
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
@@ -83,16 +73,16 @@ export default function Navbar() {
               <p className="uppercase tracking-widest">Let&apos;s Connect</p>
               <div className="flex items-center justify-between my-2 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href={"https://www.linkedin.com/in/sigit-nurmajid-858181160"}><FaLinkedinIn size={30} /></Link>
+                  <Link href={"https://www.linkedin.com/in/sigit-nurmajid-858181160"}><FaLinkedinIn size={15} /></Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href={"https://github.com/sigitnurmajid"}><FaGithub size={30} /></Link>
+                  <Link href={"https://github.com/sigitnurmajid"}><FaGithub size={15} /></Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href={"mailto:sigitnurmajid32@gmail.com"}><AiOutlineMail size={30} /></Link>
+                  <Link href={"mailto:sigitnurmajid32@gmail.com"}><AiOutlineMail size={15} /></Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <Link href={"https://youtube.com/channel/UCIRErnyZjR3GVdM7qyq88Tw"}><FaYoutube size={30} /></Link>
+                  <Link href={"https://youtube.com/channel/UCIRErnyZjR3GVdM7qyq88Tw"}><FaYoutube size={15} /></Link>
                 </div>
               </div>
             </div>

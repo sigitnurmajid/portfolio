@@ -7,7 +7,7 @@ export default function Main() {
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase tracking-widest text-gray-500 py-4">let&apos;s build something together</p>
+          <p className="uppercase tracking-widest text-gray-500 py-4">let&apos;s make our money</p>
           <h1 className="py-4">
             Hi, I&apos;m <span className="text-blue-700 mb-4">Sigit</span>
           </h1>
@@ -15,7 +15,9 @@ export default function Main() {
             a man who lives as backend developer
           </h2>
           <p className="text-gray-700 max-w-2xl m-auto py-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quo aspernatur architecto facere repellendus deleniti fugiat magni dolorum tempore totam harum deserunt dicta, laboriosam at magnam reprehenderit blanditiis voluptas tempora.
+            I&apos;m backend developer specializing in builiding Internet of Things system.         
+            Even though my background is hardware engineer, I&apos;m excited to build <span className="font-bold">Backend System</span> .
+            Currently, I&apos;m focused to build many IoT project.
           </p>
           <div className="hidden md:flex items-center justify-between py-4 w-full max-w-sm m-auto">
             <div className="rounded-full bg-gray-100 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
