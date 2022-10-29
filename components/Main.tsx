@@ -7,9 +7,9 @@ export default function Main() {
     <div className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase tracking-widest text-gray-500 py-4">let&apos;s make our money</p>
+          <p className="uppercase tracking-widest text-gray-500 py-4">let&apos;s make our journey</p>
           <h1 className="py-4">
-            Hi, I&apos;m <span className="text-blue-700 mb-4">Sigit</span>
+            Hi, I&apos;m <span className="bg-gradient-to-r from-blue-500 to-teal-300 bg-clip-text text-transparent mb-4">Sigit Nurmajid</span>
           </h1>
           <h2 className="uppercase text-gray-600 py-4">
             a man who lives as backend developer

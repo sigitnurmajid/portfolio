@@ -19,10 +19,7 @@ export default function Navbar() {
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>home</li>
             </Link>
-            <Link href='/'>
-              <li className='ml-10 text-sm uppercase hover:border-b'>about</li>
-            </Link>
-            <Link href='/'>
+            <Link href='/#skills'>
               <li className='ml-10 text-sm uppercase hover:border-b'>skills</li>
             </Link>
             <Link href='/'>
@@ -49,23 +46,20 @@ export default function Navbar() {
             </div>
           </div>
           <div className="border-b border-gray-400 my-4">
-            <p className="uppercase w-[85%] md:w-[90%] py-4">let&apos;s make our money</p>
+            <p className="uppercase w-[85%] md:w-[90%] py-4">let&apos;s make our journey</p>
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="/" onClick={handleNav}>
                 <li className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">About</li>
+              <Link href='/#skills' onClick={handleNav}>
+                <li className="py-4 text-sm">Skills</li>
               </Link>
-              <Link href="/">
-                <li className="py-4 text-sm">Skill</li>
-              </Link>
-              <Link href="/">
+              <Link href="/" onClick={handleNav}>
                 <li className="py-4 text-sm">Project</li>
               </Link>
-              <Link href="/">
+              <Link href="/" onClick={handleNav}>
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
