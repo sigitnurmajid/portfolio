@@ -20,17 +20,17 @@ export default function Main() {
             Currently, I&apos;m focused to build many IoT project.
           </p>
           <div className="hidden md:flex items-center justify-between py-4 w-full max-w-sm m-auto">
-            <div className="rounded-full bg-gray-100 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
+            <div className="rounded-full border-black border-2 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
               <Link href={"https://www.linkedin.com/in/sigit-nurmajid-858181160"}><FaLinkedinIn size={30}/></Link>
               
             </div>
-            <div className="rounded-full bg-gray-100 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
+            <div className="rounded-full border-black border-2 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
               <Link href={"https://github.com/sigitnurmajid"}><FaGithub size={30}/></Link>
             </div>
-            <div className="rounded-full bg-gray-100 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
+            <div className="rounded-full border-black border-2 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
               <Link href={"mailto:sigitnurmajid32@gmail.com"}><AiOutlineMail size={30}/></Link>
             </div>
-            <div className="rounded-full bg-gray-100 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
+            <div className="rounded-full border-black border-2 shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-150 ease-in duration-300">
               <Link href={"https://youtube.com/channel/UCIRErnyZjR3GVdM7qyq88Tw"}><FaYoutube size={30}/></Link>             
             </div>
           </div>

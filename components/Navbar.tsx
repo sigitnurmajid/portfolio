@@ -1,17 +1,34 @@
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub, FaYoutube, FaFrog } from 'react-icons/fa'
 
 export default function Navbar() {
   const [nav, setNav] = useState<boolean>(false)
+  const [shadow, setShadow] = useState<boolean>(false)
 
   const handleNav = () => {
     setNav(!nav)
   }
+
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true)
+      } else {
+        setShadow(false)
+      }
+      console.log(shadow)
+    }
+    window.addEventListener('scroll', handleShadow);
+  }, [])
+
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100] ">
+    <div className={
+      shadow ? "fixed -top-[100%] w-full h-20 shadow-xl z-[100] ease-in-out duration-500"
+      : "fixed top-0 w-full h-20 shadow-xl z-[100] ease-in-out duration-500"
+      }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <FaFrog size={40} />
         <div>
