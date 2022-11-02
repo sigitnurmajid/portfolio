@@ -19,7 +19,6 @@ export default function Navbar() {
       } else {
         setShadow(false)
       }
-      console.log(shadow)
     }
     window.addEventListener('scroll', handleShadow);
   }, [])
