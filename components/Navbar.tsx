@@ -37,18 +37,18 @@ export default function Navbar() {
           <FaFrog size={40} />
           <div>
             <ul className="hidden md:flex">
-              <Link href='/'>
+              <a href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>home</li>
-              </Link>
-              <Link href='/#skills'>
+              </a>
+              <a href='/#skills'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>skills</li>
-              </Link>
-              <Link href='/'>
+              </a>
+              <a href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>project</li>
-              </Link>
-              <Link href='/'>
+              </a>
+              <a href='/'>
                 <li className='ml-10 text-sm uppercase hover:border-b'>contact</li>
-              </Link>
+              </a>
             </ul>
             <div onClick={handleNav} className="md:hidden">
               <AiOutlineMenu size={25} />
