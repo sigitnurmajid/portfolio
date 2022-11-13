@@ -37,16 +37,16 @@ export default function Navbar() {
           <FaFrog size={40} />
           <div>
             <ul className="hidden md:flex">
-              <a href='/'>
+              <a href="#">
                 <li className='ml-10 text-sm uppercase hover:border-b'>home</li>
               </a>
-              <a href='/#skills'>
+              <a href="#skills">
                 <li className='ml-10 text-sm uppercase hover:border-b'>skills</li>
               </a>
-              <a href='/'>
+              <a href="#">
                 <li className='ml-10 text-sm uppercase hover:border-b'>project</li>
               </a>
-              <a href='/'>
+              <a href="#">
                 <li className='ml-10 text-sm uppercase hover:border-b'>contact</li>
               </a>
             </ul>
@@ -71,18 +71,18 @@ export default function Navbar() {
             </div>
             <div className="py-4 flex flex-col">
               <ul className="uppercase">
-                <Link href="/" onClick={handleNav}>
+                <a href="#" onClick={handleNav}>
                   <li className="py-4 text-sm">Home</li>
-                </Link>
-                <Link href='/#skills' onClick={handleNav}>
+                </a>
+                <a href="#skills" onClick={handleNav}>
                   <li className="py-4 text-sm">Skills</li>
-                </Link>
-                <Link href="/" onClick={handleNav}>
+                </a>
+                <a href="#" onClick={handleNav}>
                   <li className="py-4 text-sm">Project</li>
-                </Link>
-                <Link href="/" onClick={handleNav}>
+                </a>
+                <a href="#" onClick={handleNav}>
                   <li className="py-4 text-sm">Contact</li>
-                </Link>
+                </a>
               </ul>
               <div className="pt-40">
                 <p className="uppercase tracking-widest">Let&apos;s Connect</p>
