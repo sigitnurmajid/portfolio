@@ -146,11 +146,11 @@ export const experience = [
 // ─── Teams ────────────────────────────────────────────────────
 export const teams = [
   {
-    name: 'Team Name',
-    role: 'Your Role',
-    description: 'Short description of what this team does and what you contribute to it.',
-    logo: '/logos/team-logo.png',  // put logo files in /public/logos/
-    href: 'https://example.com',
+    name: '101 Team',
+    role: 'Software Engineer / IoT Engineer',
+    description: 'At 101 Team, I contribute as a Software & IoT Engineer, building systems where data flows in real time and drives meaningful outcomes. From backend services to IoT integrations, I focus on creating scalable, reliable infrastructures that transform raw data into actionable insights.',
+    logo: '/logos/101logo.svg',  // put logo files in /public/logos/
+    href: 'https://101team.it/en',
   },
   // Add more teams here...
 ]
