@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { useIsMobile } from '../hooks/useIsMobile'
 import { hero } from '../../content'
 
-const HeroCanvas = dynamic(() => import('../three/HeroCanvas'), { ssr: false })
+const HeroCanvas = dynamic(() => import('../three/PCBHeroCanvas'), { ssr: false })
 
 const ease = [0.25, 0.1, 0.25, 1] as const
 
